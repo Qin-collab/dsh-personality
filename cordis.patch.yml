@@ -1,0 +1,24 @@
+# DSH Personality bundle patch.
+#
+# The dsh-base composition already provides every service this row needs
+# (system prompt sections, the tools registry, the LLM service, and the web
+# server), so one insert is the whole patch. All plugin settings are stored
+# as JSON under `<DSH_HOME>/dsh-personality/` and edited from the Web UI
+# (Settings -> DSH Personality); the optional keys below only override
+# defaults when you need them:
+#
+#   - id: dsh-personality
+#     config:
+#       enabled: true
+#       dataDir: 'D:/my-personality-data'
+#       model:
+#         provider: deepseek-account
+#         model: deepseek-flash
+#       memory:
+#         maxSessions: 200
+#         maxMemories: 200
+#         injectChars: 2400
+#
+- insert:
+    - id: dsh-personality
+      name: 'dsh-personality'

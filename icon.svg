@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DSH Personality">
+  <defs>
+    <linearGradient id="dshp-face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4b8bf5"/>
+      <stop offset="1" stop-color="#7c5cf0"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="17" fill="url(#dshp-face)"/>
+  <ellipse cx="32" cy="33" rx="20" ry="8.5" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="2" transform="rotate(-22 32 33)"/>
+  <circle cx="32" cy="31" r="11.5" fill="#ffffff" fill-opacity="0.16" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="27" cy="29" r="2.6" fill="#ffffff"/>
+  <circle cx="37" cy="29" r="2.6" fill="#ffffff"/>
+  <path d="M26.5 36.5q5.5 4.5 11 0" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="50" cy="14" r="3.4" fill="#ffffff"/>
+</svg>
